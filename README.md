@@ -7,7 +7,7 @@ Integrates PayUBiz payment gateway with Omnipay.
 Via Composer
 
 ``` bash
-$ composer require jaysson/omnipay-payubiz
+$ composer require awethemes/omnipay-payubiz
 ```
 
 ## Usage
