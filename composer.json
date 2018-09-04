@@ -1,21 +1,18 @@
 {
-    "name": "jaysson/omnipay-payubiz",
+    "name": "awethemes/omnipay-payubiz",
     "type": "library",
     "description": "Integrates PayUBiz payment gateway with omnipay",
     "keywords": [
-        "jaysson",
         "omnipay",
         "payubiz",
         "payu"
     ],
-    "homepage": "https://github.com/jaysson/omnipay-payubiz",
+    "homepage": "https://github.com/awethemes/omnipay-payubiz",
     "license": "MIT",
     "authors": [
         {
-            "name": "Prabhakar Bhat",
-            "email": "prabhakarbhat@live.com",
-            "homepage": "http://prabhakarbhat.com",
-            "role": "Developer"
+            "name": "Nguyen Van Anh",
+            "email": "anhskohbo@gmail.com"
         }
     ],
     "require": {
