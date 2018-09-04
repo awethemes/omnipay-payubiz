@@ -1,14 +1,9 @@
 {
     "name": "awethemes/omnipay-payubiz",
+    "description": "PayUBiz driver for the Omnipay",
     "type": "library",
-    "description": "Integrates PayUBiz payment gateway with omnipay",
-    "keywords": [
-        "omnipay",
-        "payubiz",
-        "payu"
-    ],
-    "homepage": "https://github.com/awethemes/omnipay-payubiz",
     "license": "MIT",
+    "homepage": "https://github.com/awethemes/omnipay-payubiz",
     "authors": [
         {
             "name": "Nguyen Van Anh",
@@ -16,12 +11,19 @@
         }
     ],
     "require": {
-        "php": ">=5.6",
-        "omnipay/common": "~3.0"
+        "omnipay/common": "^3.0"
+    },
+    "require-dev": {
+        "omnipay/tests": "^3.0"
     },
     "autoload": {
         "psr-4": {
-            "Omnipay\\PayUBiz\\": "src"
+            "Omnipay\\PayUBiz\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Omnipay\\PayUBiz\\": "tests/"
         }
     }
 }
